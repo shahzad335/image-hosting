@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Sign Up page </title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("https://raw.githubusercontent.com/shahzad335/image-hosting/385bc4916f5c9a38419dabbd446cd1aff9f468f0/back.jpg");
+
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+
+        .main {
+            background-image: url('back.jpg');
+        }
+
+        .page {
+            position: relative;
+            background: linear-gradient(white);
+            height: 700px;
+            width: 500px;
+            margin: 0px 400px;
+        }
+
+        .SignUp {
+            position: relative;
+            text-align: center;
+            background-color: aqua;
+        }
+
+
+        .First_Name {
+            margin: 10px 20px;
+            font-size: 20px;
+        }
+
+        .input {
+            height: 20px;
+            width: 450px;
+            margin: 0px 20px;
+        }
+
+        .second_Name {
+            margin: 10px 20px;
+            font-size: 20px;
+        }
+
+        .input1 {
+            height: 20px;
+            width: 450px;
+            margin: 0px 20px;
+        }
+
+        .Country_Name {
+            margin: 10px 20px;
+            font-size: 20px;
+        }
+
+        .input2 {
+            height: 20px;
+            width: 450px;
+            margin: 0px 20px;
+        }
+
+        .Address {
+            margin: 10px 20px;
+            font-size: 20px;
+        }
+
+        .input3 {
+            height: 20px;
+            width: 450px;
+            margin: 0px 20px;
+        }
+
+        .Password {
+            margin: 10px 20px;
+            font-size: 20px;
+        }
+
+        .input4 {
+            height: 20px;
+            width: 450px;
+            margin: 0px 20px;
+        }
+
+        .confirm {
+            margin: 10px 20px;
+            font-size: 20px;
+        }
+
+        .input5 {
+            height: 20px;
+            width: 450px;
+            margin: 0px 20px;
+        }
+
+        .h {
+            text-align: center;
+            margin: 30px 0px;
+        }
+
+        .button {
+            position: relative;
+            height: 40px;
+            width: 140px;
+            background-color: red;
+            color: aqua;
+            font-size: 30px;
+            margin: 50px 170px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="page">
+
+        <h1 class="SignUp"> SignUp Here</h1>
+
+        <h2 class="First_Name">Enter Your First Name</h2>
+        <input type="First_Name" id="First" placeholder="Enter Your First Name" class="input">
+
+        <h2 class="second_Name">Enter Your Second Name</h2>
+        <input type="second_Name" id="Second" placeholder="Enter Your Second Name" class="input1">
+
+
+        <h2 class="Country_Name">Enter Your Country Name</h2>
+        <input type="Country_Name" id="Country" placeholder="Enter Your Country Name" class="input2">
+
+        <h2 class="Address">Enter Your Address </h2>
+        <input type="Address" id="Address" placeholder="Enter Your Full Address" class="input3">
+
+        <h2 class="Password">Enter Your Password</h2>
+        <input type="password" id="Password" placeholder="Enter a Strong Password" class="input4">
+
+        <h2 class="confirm">Enter Your Confirm Password</h2>
+        <input type="password" id="confirm" placeholder="Enter a Confirm Password" class="input5">
+
+        <h4 class="h">Click the Resgister button And Submit the SignUp Details</h4>
+
+        <button class="button" onclick="signup()">Resgister</button>
+        <script>
+            function signup() {
+                const enteredFirst = document.getElementById('First').value;
+                const enteredsecond = document.getElementById('Second').value;
+                const enteredCountry= document.getElementById('Country').value;
+                const enteredAddress = document.getElementById('Address').value;
+                const enteredPassword = document.getElementById('Password').value;
+                const enteredconfirm =document.getElementById('confirm').value;
+
+                if(enteredFirst !=="" && enteredsecond !=="" && enteredCountry !=="" && enteredAddress !=="" && enteredPassword!=="" && enteredPassword===enteredconfirm){
+                    alert("Your Record Has been Successfullly Submitted")
+                }
+                else{
+                    alert("Invalid Record")
+                }
+            }
+
+
+        </script>
+
+
+    
+    </div>
+</body>
+
+</html>
