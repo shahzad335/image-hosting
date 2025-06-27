@@ -1,0 +1,317 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><b> WellCom To My Website </b></title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("https://raw.githubusercontent.com/shahzad335/image-hosting/07a662d33d285f561daf0d50357eb80f2d6c2338/back1.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+
+
+        .text {
+            position: relative;
+            color: white;
+            margin: 120px 100px;
+            width: 1110px;
+            font-size: 40px;
+
+
+        }
+
+        .text1 {
+            position: relative;
+            color: black;
+            margin: 150px 150px;
+            width: 710px;
+            font-size: 20px;
+            font-style: italic;
+            top: -100px;
+        }
+
+        .join {
+            position: relative;
+            color: black;
+            background-color: red;
+            margin: 20px 150px;
+            height: 40px;
+            width: 80px;
+            font-size: 20px;
+            border-radius: 30px;
+            top: -150px;
+            font-family: 'Times New Roman', Times, serif;
+            cursor: pointer;
+        }
+
+        .page {
+            background: linear-gradient(to bottom, aqua, red);
+            background-color: black;
+            height: 480px;
+            width: 300px;
+            position: absolute;
+            top: 80px;
+            right: 20px;
+            margin: 20px;
+
+        }
+
+
+        .login {
+            background-color: white;
+            color: crimson;
+            height: 20px;
+            width: 130px;
+            margin: 10px 40px;
+            padding: 10px 40px;
+            border-radius: 30px;
+        }
+
+        .E-Mail {
+            position: relative;
+            margin: 50px 35px;
+
+
+        }
+
+        .Phone {
+            margin: 30px 15px;
+
+        }
+
+        .Password {
+            margin: 30px 15px;
+
+        }
+
+        .loginbutton {
+            position: relative;
+            height: 50px;
+            width: 80px;
+            left: 100px;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            border-radius: 20px;
+
+        }
+
+
+
+        .text2 {
+            color: white;
+            margin: 10px 10px;
+            width: 800px;
+        }
+
+        .signup {
+            position: relative;
+            background-color: yellow;
+            color: black;
+            height: 40px;
+            width: 100px;
+            left: 1200px;
+            top: -740px;
+            font-family: 'Times New Roman', Times, serif;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 20px;
+
+
+        }
+
+        .icon {
+            margin: 5px 20px;
+        }
+
+        .icon img {
+            position: relative;
+            height: 60px;
+            width: 60px;
+            margin: 5px -15px;
+            border-radius: 10px;
+            top: -7px;
+        }
+
+        .search {
+
+            position: absolute;
+            top: -10px;
+            right: 120px;
+            margin: 20px;
+        }
+
+        .search input {
+            position: relative;
+            right: -140px;
+            top: -20px;
+            width: 300px;
+            height: 40px;
+        }
+
+        .search button {
+            position: relative;
+            background-color: red;
+            color: white;
+            height: 40px;
+            width: 100px;
+            top: -20px;
+            right: -120px;
+            margin: 20px 20px;
+            font-family: 'Times New Roman', Times, serif;
+            cursor: pointer;
+        }
+
+        .navbar {
+            position: relative;
+            top: -80px;
+            right: 630px;
+            font-size: 25px;
+        }
+
+        .navbar button {
+            position: relative;
+            background-color: aqua;
+            color: red;
+            border-radius: 20px;
+            font-size: 15px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .navbar button a {
+            margin: 30px 10px;
+            color: red;
+        }
+
+        .icons {
+            position: relative;
+            margin: 0px 10px;
+        }
+
+        .icons a {
+            position: relative;
+        }
+
+        .icons a img {
+            height: 20px;
+            width: 20px;
+            margin: 50px 10px;
+            top: -50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="icon"><img src="https://i.ibb.co/ksCt5XVP/tech.jpg" alt="icon">
+            <h1 class="text"> Web design & <b style="color: red;">Development</b> Development Course</h1>
+            <p class="text1">Web design and development is <b style="color: aqua;">essential</b> for creating modern, <b
+                    style="color: brown;">responsive websites</b>. This course covers <b style="color: crimson;"> HTML,
+                    CSS, JavaScript, and UX principles</b>. You'll learn to build interactive, <b
+                    style="color:brown">user-friendly websites</b> and optimize performance. <b style="color: red;">Gain
+                    hands-on experience with real projects</b>, improving your coding and <b
+                    style="color: darkorange;">design skills</b>. Perfect for beginners and professionals!</p>
+                    <a href="signup.html">
+            <button class="join" onclick="join()">Join Us</button>
+            </a>
+            <script>
+                function join() {
+                    alert("You Have Successfully joined")
+                }
+            </script>
+
+            <div class="page">
+                <h2 class="login">Login Here</h2>
+
+
+                <h2 class="E_Mail" style="margin: 30px 15px;">
+                    <label for="E_Mail" style="color: red; ">E-Mail</label>
+                    <input type="email" id="E_Mail" placeholder="Enter E-mail Here"
+                        style="height: 20px; width: 270px;  vertical-align: middle;">
+                </h2>
+
+                <h2 class="Phone">
+                    <label for="" style="color: red;">Phone Number</label>
+                    <input type="phone" id="Phone" placeholder="+92" style="height: 20px; width: 270px;">
+                </h2>
+                <h2 class="Password">
+                    <label for="" style="color: red;">Password</label>
+                    <input type="password" id="Password" placeholder="Enter Password Here"
+                        style="height: 20px; width: 270px;">
+                </h2>
+                <button class="loginbutton" onclick="login()">Login </button>
+
+                <script>
+                    function login() {
+                        const E_mail = "ms4140570@gmail.com";
+                        const Phone = "+923406861305"
+                        const Password = "12345";
+                        const enteredE_mail = document.getElementById("E_Mail").value;
+                        const enteredPhone = document.getElementById("Phone").value;
+                        const enteredPassword = document.getElementById("Password").value;
+
+                        if (enteredE_mail == E_mail && enteredPhone == Phone && enteredPassword == Password) {
+                            alert("login Successfully");
+                        }
+                        else if (enteredE_mail !== E_mail) {
+                            alert("Invalid E_mail");
+                        }
+                        else if (enteredPhone !== Phone) {
+                            alert("Invalid Phone Number");
+                        }
+                        else if (enteredPassword !== Password) {
+                            alert("Invalid Password");
+                        }
+                        else {
+                            alert("Invaild E_mail, Phone Number And Password")
+                        }
+
+                    }
+                </script>
+
+                <div class="text2">
+                    <p>Don't have an account Go to <a href="signup.html"><b style="color: aqua;">SIGN UP</b></a> Button </p>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/share/18ybVGhEao/" target="_blank"><img
+                                src="https://i.ibb.co/3mnCyXzC/fb.jpg" alt="simple images"></a>
+                        <a href="https://www.google.com" target="_blank"><img src="	https://i.ibb.co/n8nPq1sx/goog.jpg"
+                                alt="simple images"></a>
+                        <a href="https://www.instagram.com/muhammadshehzad2013?igsh=enJrZGM5cTVmdTd4"
+                            target="_blank"><img src="https://i.ibb.co/gMp0L5jy/insta.jpg" alt="simple images"></a>
+                        <a href="https://www.snapchat.com/add/muhammadshe7649?share_id=EG-pHLsozrY&locale=en-US"
+                            target="_blank"><img src="https://i.ibb.co/Nn64ZBJJ/snap.jpg" alt="simple images"></a>
+                        <a href="https://www.tiktok.com/@mshehzad026?_t=ZS-8v6pg9EKWlG&_r=1 " target="_blank"><img
+                                src="https://i.ibb.co/6dzkFW7/tik.jpg" alt="simple images"></a>
+                        <a href="https://wa.me/message/MXJ5MNF2CWF4P1?src=qr" target="_blank"><img
+                                src="https://i.ibb.co/F41wKyH1/whatsapp.jpg" alt="simple images"></a>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <a href="signup.html">
+        <button class="signup" type="button">Sign Up</button>
+        </a>
+
+        <div class="search">
+            <input type="search" placeholder="Search Anything">
+            <button>Search </button>
+            <div class="navbar">
+                <a href=""><button><b>HOME</b></button></a>
+                <a href=""><button><b>SEVICS</b></button></a>
+                <a href=""><button><b>ABOUT ME</b></button></a>
+                <a href=""><button><b>CONTACT</b></button></a>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
