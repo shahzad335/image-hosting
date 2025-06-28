@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rotating Name</title>
+  <style>
+    body {
+      background-image: url(back1.jpg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-size: cover;
+    }
+
+    .name {
+      font-size: 180px;
+      color: red;
+      text-shadow: 2px 2px  black;
+      animation: rotateName 10s linear infinite;
+      
+    }
+
+    @keyframes rotateName {
+      from {
+        transform: rotateX(0deg);
+      }
+      to {
+        transform: rotateY(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="name">Muhammad Shahzad</div>
+
+</body>
+</html>
