@@ -1,0 +1,500 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><b> WellCom To My Website </b></title>
+    <style>
+        html,
+        body {
+            overflow-x: hidden;
+
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("https://raw.githubusercontent.com/shahzad335/image-hosting/2d54c4e4df9adcd3288383fa7575239501558059/ground.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .icon {
+            margin: 5px 20px;
+        }
+
+        .icon img {
+            position: relative;
+            height: 60px;
+            width: 60px;
+            margin: 5px -15px;
+            border-radius: 10px;
+            top: -7px;
+        }
+
+        .navbar {
+            position: relative;
+            margin: 0px 100px;
+            top: -65px;
+        }
+
+        .navbar a {
+            position: relative;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .navbar a button {
+            position: relative;
+            background-color: aqua;
+            color: black;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            border-color: red;
+            border: 2px solid;
+            height: 40px;
+            width: 130px;
+
+        }
+
+        .navbar a button:hover {
+            background-color: blanchedalmond;
+        }
+
+        .text {
+            position: relative;
+
+        }
+
+        .text h1 {
+            position: relative;
+            color: white;
+            margin: 120px 100px;
+            width: 1110px;
+            font-size: 40px;
+            bottom: 50px;
+        }
+
+        .text p {
+            position: relative;
+            color: black;
+            margin: 150px 150px;
+            width: 710px;
+            font-size: 20px;
+            font-style: italic;
+            top: -100px;
+        }
+
+        .join {
+            position: relative;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .join button {
+            position: relative;
+            width: 150px;
+            height: 70px;
+            color: black;
+            background-color: aqua;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0px 150px;
+            top: -180px;
+            border-radius: 20px;
+            border: 3px solid;
+            cursor: pointer;
+        }
+
+        .join button:hover {
+            background-color: green;
+        }
+
+        .page {
+            background: linear-gradient(to bottom, aqua, red);
+            background-color: black;
+            height: 480px;
+            width: 300px;
+            position: absolute;
+            bottom: -110px;
+            right: 20px;
+            margin: 20px;
+
+        }
+
+
+        .login {
+            background-color: black;
+            color: red;
+            text-shadow: green;
+            height: 30px;
+            width: 150px;
+            text-align: center;
+            margin: 0px 80px;
+        }
+
+        .login:hover {
+            background-color: blue;
+        }
+
+        .E-Mail {
+            position: relative;
+            margin: 50px 35px;
+        }
+
+        .Phone {
+            margin: 30px 15px;
+        }
+
+        .Password {
+            margin: 30px 15px;
+        }
+
+        .loginbutton {
+            position: relative;
+            height: 50px;
+            width: 80px;
+            left: 100px;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            border-radius: 20px;
+            cursor: pointer;
+
+        }
+
+        .loginbutton:hover {
+            background-color: yellowgreen;
+        }
+
+        .text2 {
+            color: white;
+            margin: 10px 10px;
+            width: 800px;
+        }
+
+        .search {
+            position: relative;
+            left: 900px;
+            gap: 10px;
+            top: -110px;
+
+        }
+
+        .search input {
+            height: 40px;
+            width: 300px;
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        .search button {
+            height: 40px;
+            width: 100px;
+            background-color: red;
+            color: black;
+            font-size: 18px;
+            border: 2px solid;
+            cursor: pointer;
+        }
+
+        .search button:hover {
+            background-color: aqua;
+        }
+
+
+
+        .icons {
+            position: relative;
+            margin: 0px 15px;
+            top: -30px;
+        }
+
+        .icons a {
+            position: relative;
+        }
+
+        .icons a img {
+            height: 20px;
+            width: 20px;
+            margin: 50px 10px;
+            border-radius: 10px;
+
+        }
+
+        @media only screen and (max-width: 600px) {
+            body {
+                background-image: url("https://raw.githubusercontent.com/shahzad335/image-hosting/cb86680a2524e37eb3d9a3f098279b261574d703/ground2.jpg");
+                position: relative;
+                background-size: cover;
+                background-repeat: repeat-x;
+            }
+
+            .navbar {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                justify-content: center;
+
+
+            }
+
+            .navbar a {
+                text-decoration: none;
+            }
+
+            .navbar a button {
+                position: relative;
+                font-size: 10px;
+                height: 50px;
+                width: 60px;
+                margin: 0px 10px;
+                left: 35px;
+                bottom: 10px;
+
+            }
+
+            .search {
+                position: relative;
+                left: 70px;
+
+                justify-content: center;
+                top: 50px;
+                height: 100px;
+                width: 700px;
+
+
+            }
+
+            .search input {
+                position: relative;
+                height: 50px;
+                top: -30px;
+                right: 70px;
+                font-size: 20px;
+
+
+            }
+
+            .search button {
+                position: relative;
+                height: 50px;
+                width: 70px;
+                top: -31px;
+                right: 70px;
+
+
+            }
+
+            .text {
+                position: relative;
+                font-size: 15px;
+                top: 120px;
+                left: 70px;
+
+            }
+
+            .text h1 {
+                position: relative;
+                right: 60px;
+                margin: 10px 0px;
+                width: 400px;
+                font-size: 30px;
+                top: -50px;
+            }
+
+            .text p {
+                position: relative;
+                right: 50px;
+                margin: 10px 0px;
+                width: 350px;
+                font-size: 25px;
+                top: 30px;
+            }
+
+            .page {
+                position: relative;
+                margin: 40px 50px;
+                top: 130px;
+            }
+
+            .join {
+                position: relative;
+                width: 50px;
+                height: 40px;
+                top: 720px;
+                left: -60px;
+            }
+
+            .join button {
+                height: 40px;
+                width: 120px;
+                top: 100px;
+                left: 40px;
+
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="icon"><img src="https://i.ibb.co/ksCt5XVP/tech.jpg" alt="icon">
+        </div>
+
+
+        <div class="navbar">
+            <a href=""><button>Home</button></a>
+            <a href=""><button>Services</button></a>
+            <a href=""><button>Contact Us</button></a>
+            <a href=""><button>About Us</button></a>
+        </div>
+
+
+        <div class="search">
+
+            <input type="search" placeholder="Search Anything">
+
+            <button> Search </button>
+
+        </div>
+
+
+        <div class="text">
+            <h1> Web design & <b style="color: red;">Development</b> Development Course</h1>
+            <p>
+            <p>
+                In the ever-evolving world of technology, a website is no longer just a digital identity — it is the
+                foundation of your online presence, your brand’s voice, and often the very first interaction your
+                audience will have with you. Web design is the art of crafting visually stunning, intuitive, and
+                user-centric interfaces that not only capture attention but also build trust and credibility. It's about
+                designing experiences that guide visitors naturally and inspire action. On the other hand, web
+                development is the powerful engine behind the scenes — turning static designs into dynamic, responsive,
+                and fully functional platforms. From clean code to fast performance, from mobile responsiveness to
+                secure integrations, great development ensures your website doesn't just look good but works flawlessly.
+                Together, web design and development bring your vision to life — beautifully, efficiently, and with
+                impact. Whether you're a startup, a growing business, or an established enterprise, investing in a
+                well-crafted website is not just an option, it's a necessity in today's digital world. Let's create
+                something that doesn't just exist online — but stands out.
+            </p>
+
+            </p>
+
+        </div>
+
+        <div class="join">
+
+            <button onclick="join('')">Join Us</button>
+            <script>
+                function join() {
+                    alert("You Have successfully join")
+                }
+            </script>
+
+        </div>
+
+        <div class="page">
+            <h2 class="login">Login Here</h2>
+
+
+            <h2 class="E_Mail" style="margin: 30px 15px;">
+                <label for="E_Mail" style="color: red; ">E-Mail</label>
+                <input type="email" id="E_Mail" placeholder="Enter E-mail Here"
+                    style="height: 20px; width: 270px;  vertical-align: middle;">
+            </h2>
+
+            <h2 class="Phone">
+                <label for="" style="color: red;">Phone Number</label>
+                <input type="phone" id="Phone" placeholder="+92" style="height: 20px; width: 270px;">
+            </h2>
+            <h2 class="Password">
+                <label for="" style="color: red;">Password</label>
+                <input type="password" id="Password" placeholder="Enter Password Here"
+                    style="height: 20px; width: 270px;">
+            </h2>
+            <button class="loginbutton" onclick="login()">Login </button>
+
+           <script>
+    function login() {
+        const enteredE_mail = document.getElementById("E_Mail").value.trim();
+        const enteredPhone = document.getElementById("Phone").value.trim();
+        const enteredPassword = document.getElementById("Password").value.trim();
+
+        const correctE_mail = "ms4140570@gmail.com";
+        const correctPhone = "+923406861305";
+        const correctPassword = "12345";
+
+        if (enteredE_mail === "") {
+            alert("Please Enter Your E-mail");
+            return;
+        }
+
+      
+        if (enteredPhone === "") {
+            alert("Please Enter Your Phone Number");
+            return;
+        }
+
+       
+        if (enteredPassword === "") {
+            alert("Please Enter Your Password");
+            return;
+        }
+
+        
+        if (enteredE_mail !== correctE_mail && enteredPhone !== correctPhone && enteredPassword!==correctPassword ) {
+            alert("Invalid Email Password");
+        }
+        
+        else if (enteredE_mail !== correctE_mail) {
+            alert("Invalid Email");
+        }
+        
+        else if (enteredPhone!== correctPhone) {
+            alert("Invalid Password");
+        }
+        
+        else if (enteredPhone !== correctPhone) {
+            alert("Invalid Phone");
+        }
+    
+        else {
+            alert("Login Successfully");
+        }
+    }
+</script>
+
+
+            <div class="text2">
+                <p>If You haven't Account Go to <a href="signup.html"><b>SIGNUP</b></a> </p>
+            </div>
+
+            <div class="icons">
+                <a href="https://www.facebook.com/share/18ybVGhEao/" target="_blank"><img
+                        src="https://i.ibb.co/3mnCyXzC/fb.jpg" alt="simple images"></a>
+                <a href="https://www.google.com" target="_blank"><img src="	https://i.ibb.co/n8nPq1sx/goog.jpg"
+                        alt="simple images"></a>
+                <a href="https://www.instagram.com/muhammadshehzad2013?igsh=enJrZGM5cTVmdTd4" target="_blank"><img
+                        src="https://i.ibb.co/gMp0L5jy/insta.jpg" alt="simple images"></a>
+                <a href="https://www.snapchat.com/add/muhammadshe7649?share_id=EG-pHLsozrY&locale=en-US"
+                    target="_blank"><img src="https://i.ibb.co/Nn64ZBJJ/snap.jpg" alt="simple images"></a>
+                <a href="https://www.tiktok.com/@mshehzad026?_t=ZS-8v6pg9EKWlG&_r=1 " target="_blank"><img
+                        src="https://i.ibb.co/6dzkFW7/tik.jpg" alt="simple images"></a>
+                <a href="https://wa.me/message/MXJ5MNF2CWF4P1?src=qr" target="_blank"><img
+                        src="https://i.ibb.co/F41wKyH1/whatsapp.jpg" alt="simple images"></a>
+            </div>
+
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>

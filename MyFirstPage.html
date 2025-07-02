@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>First Page</title>
+    <style>
+        html,
+        body {
+            overflow-x: hidden;
+        }
+
+        body {
+            background-image: url("https://raw.githubusercontent.com/shahzad335/image-hosting/2d54c4e4df9adcd3288383fa7575239501558059/color.jpg");
+            background-size: cover;
+        }
+
+        .main {
+            position: relative;
+            text-align: center;
+
+        }
+
+        .main h1 {
+            text-align: center;
+            color: black;
+            font-size: 100px;
+            font-family: 'Times New Roman', Times, serif;
+            text-shadow: 2px 2px 5px red;
+            transition: transform 0.2s ease;
+            transition-delay: 0.3s;
+            animation-name: main;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            animation-delay: 0.3s;
+
+        }
+
+        .main h1:hover {
+            transform: scale(1.3) rotate(10deg);
+            color: chartreuse;
+
+        }
+
+        @keyframes main {
+            0% {
+                color: aqua;
+                text-shadow: 2px 2px 5px black;
+            }
+
+            25% {
+                color: red;
+                text-shadow: 3px 3px 10px;
+            }
+
+            50% {
+                color: black;
+                text-shadow: 4px 4px 15px;
+            }
+
+            100% {
+                color: blue;
+                text-shadow: 5px 5px 20px yellowgreen;
+            }
+
+            0% {
+                transform: scale(1);
+            }
+
+            100% {
+                transform: scale(1.3);
+            }
+        }
+
+        .main p {
+            font-size: 30px;
+            color: aqua;
+            animation-name: fadeText;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        @keyframes fadeText {
+            0% {
+                color: red;
+            }
+
+            25% {
+                color: blue;
+            }
+
+            50% {
+                color: yellow;
+            }
+
+            75% {
+                color: chartreuse;
+            }
+
+            100% {
+                color: aqua;
+            }
+        }
+
+        .main button {
+            font-size: 30px;
+            height: 50px;
+            width: 200px;
+            color: red;
+            border: 2px solid;
+            font-style: bold;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            cursor: pointer;
+            margin: 70px 0px;
+            font-family: 'Times New Roman', Times, serif;
+            border-radius: 5px;
+
+            animation-name: button;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-delay: 0.1s;
+        }
+
+        @keyframes button {
+            0% {
+                color: blue;
+                text-shadow: 2px 2px 5px black;
+            }
+
+            25% {
+                color: aliceblue;
+                text-shadow: 3px 3px 10px black;
+            }
+
+            50% {
+                color: green;
+                text-shadow: 4px 4px 15px black;
+            }
+        }
+
+        .main button:hover {
+            background-color: aqua;
+        }
+
+        @media only screen and (max-width: 600px) {
+            body {
+                background-image: url("https://raw.githubusercontent.com/shahzad335/image-hosting/2d54c4e4df9adcd3288383fa7575239501558059/color.jpg");
+                overflow-x: hidden;
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 900px;
+            }
+
+            .main {
+                position: relative;
+            }
+
+            .main h1 {
+                position: relative;
+                font-size: 40px;
+                top: 50px;
+
+            }
+
+            .main p {
+                position: relative;
+                top: 150px;
+
+            }
+
+            .main button {
+                position: relative;
+                top: 270px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1>WELLCOME TO MY WEBSITE</h1>
+        <p>
+            Welcome to a world where learning meets creativity! I'm Muhammad Shehzad, and this platform is your gateway
+            to mastering Python in the simplest and most enjoyable way. Whether you're a complete beginner or looking to
+            sharpen your skills, you'll find practical lessons, real-life examples, and powerful concepts explained in
+            easy language. Let's start this exciting journey together — because your future in programming begins right
+            here, right now!
+        </p>
+
+        <a href="HomePage.html"><button> Get Started </button></a>
+    </div>
+</body>
+
+</html>
